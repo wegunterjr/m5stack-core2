@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "name": "M5Stack Core2",
+            "includePath": [
+                "${workspaceFolder}/build/include",
+                "${workspaceFolder}/components/arduino/cores/**",
+                "${workspaceFolder}/components/arduino/libraries/**",
+                "${workspaceFolder}/components/arduino/variants/esp32",
+                "${workspaceFolder}/components/m5stack/M5Core2/**",
+                "${workspaceFolder}/esp-idf/components/**"
+            ],
+            "forcedInclude" : [
+            ],
+            "defines": [
+                "ESP32=1",
+                "ARDUINO_ARCH_ESP32=1",
+                "BOARD_HAS_PSRAM",
+                "ARDUINO=10800"
+            ],
+            "intelliSenseMode": "gcc-x64",
+            "compilerPath": "~/devel/toolchain/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc",
+            "cStandard": "c11",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}
